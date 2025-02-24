@@ -261,7 +261,7 @@ function print(req,res,next){
 
 if (!process.env.VERCEL) {
     // This means we’re NOT running on Vercel
-    const port = process.env.PORT || 3000;
+    const port = process.env.PORT || 3001;
     app.listen(port, () => {
       console.log(`Local server is listening on port ${port}`);
     });
